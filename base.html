@@ -6,6 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Ignit</title>
+    <style>
+        body {
+            margin-top: 10px;
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+        .btn{
+            padding: 12px 20px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        .btn:hover{
+            background-color: rgb(235, 138, 11);
+        }
+        .inp{
+            padding: 10px 08px;
+        }
+        .navbar-list{
+            background-color:wheat;
+        }
+        .btn2{
+            padding: 12px 20px;
+            background-color: white;
+            border: 2px solid #FF9933;
+            color:black;
+            border-radius:10px ;
+            cursor: pointer;
+        }
+        .btn2:hover{
+            background-color: #FF9933;
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
 <div class="header-bg">
@@ -16,8 +52,8 @@
 </div>
 <div class="header-Form">
     <form>
-    <input type="text" class="headform-text" value="Enter text here">
-    <input type="submit" value="Search">
+    <input type="text" class="inp" value="Enter text here">
+    <input type="submit" value="Search" class="btn">
     </form>
 </div>
 </div>
@@ -27,9 +63,9 @@
 <nav class="navbar-nav">
     <div class="navbar-list">
     <ul class="navbar-ul">
-        <li class="nav-item"><a href="">Home</a></li>
-        <li class="nav-item"><a href="">About</a></li>
-        <li class="nav-item"><a href="">Contact</a></li>
+        <li class="nav-item"><a href="" style="text-decoration: none;">Home</a></li>
+        <li class="nav-item"><a href="" style="text-decoration: none;">About</a></li>
+        <li class="nav-item"><a href="" style="text-decoration: none;">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -53,7 +89,7 @@
                 <h4><a href="#" style="text-decoration: none;">Train with Professionals</a></h4>
                 <p>The ignIT faculty includes professionals working in the field of application development. This helps...
                 </p>
-                <a href="#" style="text-decoration: none;">Read More</a>
+                <input type="submit" value="Read More" class="btn2">
             </div>
             <div class="content-second">
                 <span class="bg-pic">
@@ -62,7 +98,7 @@
                 <h4><a href="#" style="text-decoration: none;">AUTHOR AN APP OF YOUR OWN</a></h4>
                 <p>By the end of the course, students are reqired to develope and publish a running application on the...
                 </p>
-                <a href="#" style="text-decoration: none;">Read More</a>
+                <input type="submit" value="Read More" class="btn2">
             </div>
             <div class="content-third">
                 <span class="bg-pic">
@@ -71,7 +107,7 @@
                 <h4><a href="#" style="text-decoration: none;">WORK ON COMMISSIONED PROJECTS</a></h4>
                 <p>Students get to work on actual commissioned projects. This gives them the chance to experience actual..
                 </p>
-                <a href="#" style="text-decoration: none;">Read More</a>
+                <input type="submit" value="Read More" class="btn2">
             </div>
             <div class="content-fourth">
                 <span class="bg-pic">
@@ -80,7 +116,7 @@
                 <h4><a href="#" style="text-decoration: none;">CONTEMPORARY SYLLABUS</a></h4>
                 <p>Our syllabus is modified regularly according to changing trends in technology. Thus students are alw...
                 </p>
-                <a href="#" style="text-decoration: none;">Read More</a>
+                <input type="submit" value="Read More" class="btn2">
             </div>
         </div>
     </div>
